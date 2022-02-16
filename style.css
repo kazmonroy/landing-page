@@ -1,0 +1,212 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #1f2937;
+}
+
+
+/* Nav section  */
+nav {
+    margin: 10px 200px;
+    background-color: #1f2937;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0 -10px;
+}
+
+nav li,
+footer li {
+    margin: 0 10px;
+    list-style: none;
+}
+
+.push-left {
+    margin-right: auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+/* Hero section */
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 100px 200px;
+}
+
+.title {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7ebb0;
+}
+
+.button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Coffee info section */
+
+.coffee-info {
+    background-color: white;
+}
+
+.sub-title {
+    color: #1f2937;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 40px 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    height: 300px;
+    gap: 20px;
+    
+}
+
+.card img {
+    max-width: 200px;
+}
+
+/* Quote section */
+
+.quote-container {
+    height: 300px;
+    background-color: #1f2937;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+/* .quote-inside {
+    padding: 50px 200px;
+    background-color: #51627a4f;
+} */
+
+.blockquote {
+    color: white;
+    font-style: italic;
+}
+
+.author {
+    color: rgba(245, 245, 220, 0.466);
+    text-align: right;
+}
+
+/* Call to Action section */
+
+.cta-container {
+    background-color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.cta-inside {
+    background-color: #3882f6;
+    display: flex;
+    padding: 20px 80px;
+    gap: 80px;
+    border-radius: 8px;
+}
+
+.cta-title {
+    font-size: 20px;
+    color: white;
+}
+
+.cta-text p {
+    font-size: 14px;
+    color: #e5e7ebb0;
+}
+
+
+.button-1 {
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Footer section */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+footer ul {
+    display: flex;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #62676e;
+
+}
