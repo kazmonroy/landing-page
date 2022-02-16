@@ -123,26 +123,26 @@ img {
 
 .quote-container {
     height: 300px;
-    background-color: #1f2937;
+    background-color: #e5e7eb;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 
-
 }
 /* .quote-inside {
     padding: 50px 200px;
-    background-color: #51627a4f;
+    background-color: #e5e7eb;
 } */
 
 .blockquote {
-    color: white;
+    color: gray;
     font-style: italic;
+    font-size: 24px;
 }
 
 .author {
-    color: rgba(245, 245, 220, 0.466);
+    color: #1f2937b9;
     text-align: right;
 }
 
